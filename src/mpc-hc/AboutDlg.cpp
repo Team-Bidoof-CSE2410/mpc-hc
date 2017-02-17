@@ -54,7 +54,7 @@ BOOL CAboutDlg::OnInitDialog()
     // Because we set LR_SHARED, there is no need to explicitly destroy the icon
     m_icon.SetIcon((HICON)LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDR_MAINFRAME), IMAGE_ICON, 48, 48, LR_SHARED));
 
-    m_appname = _T("MPC-HC");
+    m_appname = _T("Team Bidoof Raja)");
     if (VersionInfo::IsNightly() || VersionInfo::Is64Bit()) {
         m_appname += _T(" (");
     }
@@ -76,7 +76,7 @@ BOOL CAboutDlg::OnInitDialog()
 #endif
 
     // Build the path to Authors.txt
-    m_AuthorsPath = PathUtils::CombinePaths(PathUtils::GetProgramPath(), _T("Authors.txt"));
+    m_AuthorsPath = PathUtils::CombinePaths(PathUtils::GetProgramPath(), _T("HOW BOW DAH"));
     // Check if the file exists
     if (PathUtils::Exists(m_AuthorsPath)) {
         // If it does, we make the filename clickable
