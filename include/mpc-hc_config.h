@@ -31,7 +31,7 @@
 #endif
 #endif
 
-#define WEBSITE_URL  _T("https://mpc-hc.org/")
+#define WEBSITE_URL  _T("https://github.com/Team-Bidoof-CSE2410")
 #define DOWNLOAD_URL _T("https://mpc-hc.org/downloads/")
 #define UPDATE_URL   _T("https://mpc-hc.org/version.txt")
 #define TRAC_URL     _T("https://trac.mpc-hc.org/")
